@@ -16,9 +16,8 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-    
-    
 }
+
 #masthead {
     background: #ffffff;
     margin: 0 0 30px;
@@ -32,7 +31,6 @@ footer {
     background: grey;
     color: #ffffff;
     padding: 25px;
-
     font-size: 16px;
     clear: both;
     text-align: center;
@@ -61,10 +59,10 @@ h1 {
     font-size: 30px;
     font-weight: bold;
 }
+
 nav {
     float: right;
     margin-top: 25px;
-    
 }
 
 
@@ -75,8 +73,6 @@ nav a {
     border-left: 1px solid #efefef;
     padding-left: 15px;
     line-height: 18px;
-    
-
 }
 
 #main-container {
@@ -99,20 +95,16 @@ nav a {
     margin-top: 10px;
     margin-right: 18px;
     float: left;
-    
 }
 
 h3 {
 font-family: Georgia, 'Times New Roman', Times, serif;
-
-
 }
 
 #textbox {
     display: list-item;
     width: 100%;
     height: 40px;
-
 }
 
 #Submit {
@@ -140,37 +132,37 @@ font-family: Georgia, 'Times New Roman', Times, serif;
         max-width: 100%;
     }
     
-
-    @media screen and (max-width: 768px) {
-        .container{
-            max-width: 100%;
-        }
-        #main-container {
-            padding-top: static;
-        }
-        header {
-            position: static;
-        }
-        .portfolio_pics {
-            max-width: 100%;
-        }
+}
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 100%;
+    }
+    #main-container {
+        padding-top: static;
+    }
+    header {
+        position: static;
+    }
+    .portfolio_pics {
+        max-width: 100%;
+    }
+}    
+    
+@media screen and (max-width: 640px) {
+    .container{
+        max-width: 100%;
         
-        
-        @media screen and (max-width: 640px) {
-            .container{
-                max-width: 100%;
-                
-            }
-            #main-container {
-                padding-top: static;
-            }
-            header {
-                position: static;
-            }
-            .portfolio_pics {
-                max-width: 100%;
-            }
-            #logo {
-                max-width: 100%;
-            }
-            
+    }
+    #main-container {
+        padding-top: static;
+    }
+    header {
+        position: static;
+    }
+    .portfolio_pics {
+        max-width: 100%;
+    }
+    #logo {
+        max-width: 100%;
+    }
+}
